@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+	<ftp>
+		<ftp_domain>www.baixavisio.com</ftp_domain>
+		<ftp_user>baixavisio</ftp_user>
+		<ftp_password>txrqvvob</ftp_password>
+		<ftp_base_directory>/backups/files</ftp_base_directory>
+	</ftp>
+</config>

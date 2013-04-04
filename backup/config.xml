@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+	<connection>
+		<server>www.baixavisio.com</server>
+		<user>baixavisio</user>
+		<password>txrqvvob</password>
+	</connection>
+	<local_temp>/temp</local_temp>
+	<preserve_files>7 days</preserve_files><!-- esto puede ser minutes, hours, days, months, years -->
+	<db_connection>
+		<host>192.168.1.213</host>
+		<user>root</user>
+		<password>elNuev0</password>
+	</db_connection>
+	<backup_settings>
+		<target_ftp_folder>/backups</target_ftp_folder>
+		<dbs>
+			<inovan>
+			<!--
+				por si necesita una conección diferente a la default
+				<db_connection>
+					<host>192.168.1.213</host>
+					<user>inorooot</user>
+					<password>elNuev0</password>
+				</db_connection>
+				-->
+				<db_name>inovan</db_name>
+			</inovan>
+		</dbs>
+	</backup_settings>
+</config>
